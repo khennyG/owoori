@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="880" viewBox="0 0 1320 880" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace">
+<rect x="0.0" y="0.0" width="1320.0" height="880.0" fill="#141019" opacity="1.0" rx="0"/>
+<text x="40.0" y="42.0" font-size="11" fill="#9A8FA6" text-anchor="start" letter-spacing="2.2">OWOORI  /  THE ORTHOGRAPHY PENALTY</text>
+<text x="40.0" y="80.0" font-size="29" fill="#F0EBE3" text-anchor="start" font-family="'Iowan Old Style', Palatino, Georgia, serif">The surcharge for writing Yoruba correctly</text>
+<text x="40.0" y="106.0" font-size="13" fill="#9A8FA6" text-anchor="start">Tokens for the same 1,012 sentences with their tone and dot-below marks, relative to the same text stripped bare.</text>
+<line x1="320.0" y1="206.0" x2="320.0" y2="706.0" stroke="#2B2336" stroke-width="1" opacity="0.5" stroke-dasharray="2 6"/>
+<text x="320.0" y="198.0" font-size="10.5" fill="#9A8FA6" text-anchor="middle">1.0x</text>
+<line x1="475.0" y1="206.0" x2="475.0" y2="706.0" stroke="#2B2336" stroke-width="1" opacity="0.5" stroke-dasharray="2 6"/>
+<text x="475.0" y="198.0" font-size="10.5" fill="#9A8FA6" text-anchor="middle">1.2x</text>
+<line x1="630.0" y1="206.0" x2="630.0" y2="706.0" stroke="#2B2336" stroke-width="1" opacity="0.5" stroke-dasharray="2 6"/>
+<text x="630.0" y="198.0" font-size="10.5" fill="#9A8FA6" text-anchor="middle">1.4x</text>
+<line x1="785.0" y1="206.0" x2="785.0" y2="706.0" stroke="#2B2336" stroke-width="1" opacity="0.5" stroke-dasharray="2 6"/>
+<text x="785.0" y="198.0" font-size="10.5" fill="#9A8FA6" text-anchor="middle">1.6x</text>
+<line x1="940.0" y1="206.0" x2="940.0" y2="706.0" stroke="#2B2336" stroke-width="1" opacity="0.5" stroke-dasharray="2 6"/>
+<text x="940.0" y="198.0" font-size="10.5" fill="#9A8FA6" text-anchor="middle">1.8x</text>
+<line x1="320.0" y1="206.0" x2="320.0" y2="706.0" stroke="#4FBFA8" stroke-width="1.4" opacity="0.9"/>
+<text x="306.0" y="244.0" font-size="12.5" fill="#F0EBE3" text-anchor="end">gpt2</text>
+<rect x="320.0" y="232.0" width="620.0" height="16.0" fill="#E8654F" opacity="0.9" rx="2"/>
+<text x="948.0" y="244.0" font-size="11" fill="#E8654F" text-anchor="start">+114%</text>
+<text x="306.0" y="284.0" font-size="12.5" fill="#F0EBE3" text-anchor="end">falcon</text>
+<rect x="320.0" y="272.0" width="620.0" height="16.0" fill="#E8654F" opacity="0.9" rx="2"/>
+<text x="948.0" y="284.0" font-size="11" fill="#E8654F" text-anchor="start">+96%</text>
+<text x="306.0" y="324.0" font-size="12.5" fill="#F0EBE3" text-anchor="end">gpt-3.5/4 (cl100k)</text>
+<rect x="320.0" y="312.0" width="565.6" height="16.0" fill="#E8654F" opacity="0.9" rx="2"/>
+<text x="893.6" y="324.0" font-size="11" fill="#E8654F" text-anchor="start">+73%</text>
+<text x="306.0" y="364.0" font-size="12.5" fill="#F0EBE3" text-anchor="end">mistral</text>
+<rect x="320.0" y="352.0" width="541.9" height="16.0" fill="#E8654F" opacity="0.9" rx="2"/>
+<text x="869.9" y="364.0" font-size="11" fill="#E8654F" text-anchor="start">+70%</text>
+<text x="306.0" y="404.0" font-size="12.5" fill="#F0EBE3" text-anchor="end">phi-3</text>
+<rect x="320.0" y="392.0" width="538.3" height="16.0" fill="#E8654F" opacity="0.9" rx="2"/>
+<text x="866.3" y="404.0" font-size="11" fill="#E8654F" text-anchor="start">+69%</text>
+<text x="306.0" y="444.0" font-size="12.5" fill="#F0EBE3" text-anchor="end">qwen2.5</text>
+<rect x="320.0" y="432.0" width="462.2" height="16.0" fill="#E8654F" opacity="0.9" rx="2"/>
+<text x="790.2" y="444.0" font-size="11" fill="#E8654F" text-anchor="start">+60%</text>
+<text x="306.0" y="484.0" font-size="12.5" fill="#F0EBE3" text-anchor="end">xlm-r</text>
+<rect x="320.0" y="472.0" width="441.1" height="16.0" fill="#E8654F" opacity="0.9" rx="2"/>
+<text x="769.1" y="484.0" font-size="11" fill="#E8654F" text-anchor="start">+57%</text>
+<text x="306.0" y="524.0" font-size="12.5" fill="#F0EBE3" text-anchor="end">aya</text>
+<rect x="320.0" y="512.0" width="425.7" height="16.0" fill="#E8654F" opacity="0.9" rx="2"/>
+<text x="753.7" y="524.0" font-size="11" fill="#E8654F" text-anchor="start">+55%</text>
+<text x="306.0" y="564.0" font-size="12.5" fill="#F0EBE3" text-anchor="end">gpt-4o (o200k)</text>
+<rect x="320.0" y="552.0" width="406.7" height="16.0" fill="#E8654F" opacity="0.9" rx="2"/>
+<text x="734.7" y="564.0" font-size="11" fill="#E8654F" text-anchor="start">+52%</text>
+<text x="306.0" y="604.0" font-size="12.5" fill="#F0EBE3" text-anchor="end">mbert</text>
+<rect x="320.0" y="592.0" width="296.1" height="16.0" fill="#E8B04B" opacity="0.9" rx="2"/>
+<text x="624.1" y="604.0" font-size="11" fill="#E8B04B" text-anchor="start">+38%</text>
+<text x="306.0" y="644.0" font-size="12.5" fill="#F0EBE3" text-anchor="end">nllb</text>
+<rect x="320.0" y="632.0" width="210.8" height="16.0" fill="#E8B04B" opacity="0.9" rx="2"/>
+<text x="538.8" y="644.0" font-size="11" fill="#E8B04B" text-anchor="start">+27%</text>
+<text x="306.0" y="684.0" font-size="12.5" fill="#F0EBE3" text-anchor="end">bloom</text>
+<rect x="320.0" y="672.0" width="98.6" height="16.0" fill="#4FBFA8" opacity="0.9" rx="2"/>
+<text x="426.6" y="684.0" font-size="11" fill="#4FBFA8" text-anchor="start">+13%</text>
+<rect x="90.0" y="718.0" width="1140.0" height="112.0" fill="#1E1826" opacity="0.6" rx="4"/>
+<text x="114.0" y="740.0" font-size="10.5" fill="#9A8FA6" text-anchor="start" letter-spacing="1.8">WHY THIS ONE STINGS</text>
+<text x="114.0" y="764.0" font-size="12" fill="#9A8FA6" text-anchor="start">The marks are not decoration: they are what makes Yoruba readable (my ami project restores them). Every tokenizer</text>
+<text x="114.0" y="785.0" font-size="12" fill="#9A8FA6" text-anchor="start">here charges extra for the marked text, up to double under GPT-2, so the incentive runs against writing the language</text>
+<text x="114.0" y="806.0" font-size="12" fill="#F0EBE3" text-anchor="start">correctly. A Yoruba speaker is taxed once for their language and a second time for their orthography.</text>
+</svg>

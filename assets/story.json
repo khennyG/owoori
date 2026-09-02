@@ -1,0 +1,2411 @@
+{
+ "n_languages": 204,
+ "n_sentences": 1012,
+ "n_tokenizers": 12,
+ "tokenizer_stats": {
+  "gpt2": {
+   "family": "English-centric BPE",
+   "median_premium": 2.5575358674752255,
+   "p90_premium": 9.387143174086683,
+   "max_premium": 18.68887738500222,
+   "max_language": "shn_Mymr",
+   "share_over_2x": 0.8921568627450981,
+   "share_over_4x": 0.36764705882352944
+  },
+  "bloom": {
+   "family": "multilingual by design",
+   "median_premium": 1.8115516486723082,
+   "p90_premium": 3.298843740881238,
+   "max_premium": 12.621170119638167,
+   "max_language": "sat_Olck",
+   "share_over_2x": 0.35294117647058826,
+   "share_over_4x": 0.0784313725490196
+  },
+  "qwen2.5": {
+   "family": "frontier BPE",
+   "median_premium": 2.1158538792947397,
+   "p90_premium": 5.024789109735346,
+   "max_premium": 10.431772926396583,
+   "max_language": "shn_Mymr",
+   "share_over_2x": 0.6029411764705882,
+   "share_over_4x": 0.1715686274509804
+  },
+  "nllb": {
+   "family": "multilingual by design",
+   "median_premium": 1.3023113424154293,
+   "p90_premium": 1.558744833920098,
+   "max_premium": 2.445798255013011,
+   "max_language": "knc_Arab",
+   "share_over_2x": 0.014705882352941176,
+   "share_over_4x": 0.0
+  },
+  "xlm-r": {
+   "family": "multilingual by design",
+   "median_premium": 1.3915251644485238,
+   "p90_premium": 1.8766223038090868,
+   "max_premium": 4.208597215848249,
+   "max_language": "shn_Mymr",
+   "share_over_2x": 0.05392156862745098,
+   "share_over_4x": 0.004901960784313725
+  },
+  "mbert": {
+   "family": "multilingual by design",
+   "median_premium": 1.6617732746342093,
+   "p90_premium": 2.1062087271785574,
+   "max_premium": 3.3977405153437785,
+   "max_language": "dzo_Tibt",
+   "share_over_2x": 0.14215686274509803,
+   "share_over_4x": 0.0
+  },
+  "aya": {
+   "family": "multilingual by design",
+   "median_premium": 1.4413843634169468,
+   "p90_premium": 1.864511680027585,
+   "max_premium": 4.096485935120535,
+   "max_language": "dzo_Tibt",
+   "share_over_2x": 0.0784313725490196,
+   "share_over_4x": 0.004901960784313725
+  },
+  "phi-3": {
+   "family": "English-centric BPE",
+   "median_premium": 2.0903032054988113,
+   "p90_premium": 5.477355945268841,
+   "max_premium": 11.879135350420762,
+   "max_language": "sat_Olck",
+   "share_over_2x": 0.5931372549019608,
+   "share_over_4x": 0.22549019607843138
+  },
+  "mistral": {
+   "family": "English-centric BPE",
+   "median_premium": 2.1053403850495016,
+   "p90_premium": 5.1968622012963985,
+   "max_premium": 11.959140894578994,
+   "max_language": "sat_Olck",
+   "share_over_2x": 0.6225490196078431,
+   "share_over_4x": 0.22058823529411764
+  },
+  "falcon": {
+   "family": "English-centric BPE",
+   "median_premium": 2.3348778280542986,
+   "p90_premium": 9.431326696832581,
+   "max_premium": 16.846805429864254,
+   "max_language": "dzo_Tibt",
+   "share_over_2x": 0.7450980392156863,
+   "share_over_4x": 0.35784313725490197
+  },
+  "gpt-3.5/4 (cl100k)": {
+   "family": "frontier BPE",
+   "median_premium": 2.253660510632036,
+   "p90_premium": 7.328073725259378,
+   "max_premium": 14.97917739680671,
+   "max_language": "shn_Mymr",
+   "share_over_2x": 0.7107843137254902,
+   "share_over_4x": 0.21568627450980393
+  },
+  "gpt-4o (o200k)": {
+   "family": "frontier BPE",
+   "median_premium": 1.7446135526364754,
+   "p90_premium": 2.617236631563279,
+   "max_premium": 13.699921854649649,
+   "max_language": "sat_Olck",
+   "share_over_2x": 0.20588235294117646,
+   "share_over_4x": 0.049019607843137254
+  }
+ },
+ "languages_ranked": [
+  {
+   "code": "sat_Olck",
+   "name": "Santali",
+   "speakers_m": null,
+   "frontier_premium": 12.73802516371128,
+   "o200k": 13.699921854649649,
+   "nllb": 2.3875401806214605,
+   "gpt2": 12.79703446235764
+  },
+  {
+   "code": "shn_Mymr",
+   "name": "Shan",
+   "speakers_m": null,
+   "frontier_premium": 10.431772926396583,
+   "o200k": 7.929148215681167,
+   "nllb": 1.889514771161794,
+   "gpt2": 18.68887738500222
+  },
+  {
+   "code": "taq_Tfng",
+   "name": "Tamasheq (Tifinagh)",
+   "speakers_m": null,
+   "frontier_premium": 10.098042822456037,
+   "o200k": 10.211625051166598,
+   "nllb": 2.325241083728762,
+   "gpt2": 10.393617808016566
+  },
+  {
+   "code": "tzm_Tfng",
+   "name": "Tamazight (Central Atlas)",
+   "speakers_m": null,
+   "frontier_premium": 10.032337576337282,
+   "o200k": 10.147508651806646,
+   "nllb": 1.9890402571559773,
+   "gpt2": 10.380306167726667
+  },
+  {
+   "code": "ory_Orya",
+   "name": "Odia",
+   "speakers_m": null,
+   "frontier_premium": 9.698888526845517,
+   "o200k": 4.984966323075206,
+   "nllb": 1.3482320526557476,
+   "gpt2": 13.263089779618399
+  },
+  {
+   "code": "dzo_Tibt",
+   "name": "Dzongkha",
+   "speakers_m": null,
+   "frontier_premium": 8.996241580768801,
+   "o200k": 8.996241580768801,
+   "nllb": 1.430062758303995,
+   "gpt2": 16.121431740866736
+  },
+  {
+   "code": "mya_Mymr",
+   "name": "Burmese",
+   "speakers_m": 40,
+   "frontier_premium": 8.928387820860939,
+   "o200k": 3.1641052357384734,
+   "nllb": 1.5459054033369048,
+   "gpt2": 16.81293447714835
+  },
+  {
+   "code": "lao_Laoo",
+   "name": "Lao",
+   "speakers_m": null,
+   "frontier_premium": 8.229970602463439,
+   "o200k": 8.229970602463439,
+   "nllb": 1.4431960814327263,
+   "gpt2": 13.093625203372282
+  },
+  {
+   "code": "bod_Tibt",
+   "name": "Tibetan",
+   "speakers_m": null,
+   "frontier_premium": 8.098277081085104,
+   "o200k": 8.098277081085104,
+   "nllb": 1.404561457217205,
+   "gpt2": 14.815855642656413
+  },
+  {
+   "code": "pan_Guru",
+   "name": "Panjabi",
+   "speakers_m": null,
+   "frontier_premium": 7.276601136816191,
+   "o200k": 2.6176831764224313,
+   "nllb": 1.46777896831471,
+   "gpt2": 7.886333382635705
+  },
+  {
+   "code": "mal_Mlym",
+   "name": "Malayalam",
+   "speakers_m": null,
+   "frontier_premium": 7.225770247275624,
+   "o200k": 1.9567595728054181,
+   "nllb": 1.4612276136537579,
+   "gpt2": 15.160294335157522
+  },
+  {
+   "code": "tel_Telu",
+   "name": "Telugu",
+   "speakers_m": 95,
+   "frontier_premium": 6.9944969407335,
+   "o200k": 1.9299296691846834,
+   "nllb": 1.3069952548599417,
+   "gpt2": 12.971342996598135
+  },
+  {
+   "code": "kan_Knda",
+   "name": "Kannada",
+   "speakers_m": null,
+   "frontier_premium": 6.922595126896202,
+   "o200k": 1.971309492799464,
+   "nllb": 1.3425378845859484,
+   "gpt2": 13.58911403638515
+  },
+  {
+   "code": "sin_Sinh",
+   "name": "Sinhala",
+   "speakers_m": 17,
+   "frontier_premium": 6.877231092284855,
+   "o200k": 2.695344769843337,
+   "nllb": 1.6234807898362162,
+   "gpt2": 12.652972932998077
+  },
+  {
+   "code": "guj_Gujr",
+   "name": "Gujarati",
+   "speakers_m": null,
+   "frontier_premium": 6.738315050143007,
+   "o200k": 1.7912030662746996,
+   "nllb": 1.3246288075922241,
+   "gpt2": 12.190541340038456
+  },
+  {
+   "code": "khm_Khmr",
+   "name": "Khmer",
+   "speakers_m": 18,
+   "frontier_premium": 6.469606458853771,
+   "o200k": 3.3357645220109404,
+   "nllb": 1.7297719271391399,
+   "gpt2": 15.182147611300104
+  },
+  {
+   "code": "tam_Taml",
+   "name": "Tamil",
+   "speakers_m": 85,
+   "frontier_premium": 6.112305854241338,
+   "o200k": 1.9796449968369738,
+   "nllb": 1.3905403336904945,
+   "gpt2": 15.536791894690134
+  },
+  {
+   "code": "tir_Ethi",
+   "name": "Tigrinya",
+   "speakers_m": null,
+   "frontier_premium": 5.9662114389908085,
+   "o200k": 5.9662114389908085,
+   "nllb": 1.4077452931272003,
+   "gpt2": 7.85911847359858
+  },
+  {
+   "code": "amh_Ethi",
+   "name": "Amharic",
+   "speakers_m": 60,
+   "frontier_premium": 5.7786625981468385,
+   "o200k": 5.7786625981468385,
+   "nllb": 1.2901576611051584,
+   "gpt2": 7.7021520485135335
+  },
+  {
+   "code": "mni_Beng",
+   "name": "Manipuri",
+   "speakers_m": null,
+   "frontier_premium": 5.607870822924586,
+   "o200k": 3.0727868120418265,
+   "nllb": 1.6866370733200673,
+   "gpt2": 10.17663807129123
+  },
+  {
+   "code": "asm_Beng",
+   "name": "Assamese",
+   "speakers_m": null,
+   "frontier_premium": 5.386119257086999,
+   "o200k": 1.9886131060916161,
+   "nllb": 1.3528547374866065,
+   "gpt2": 9.669353645910368
+  },
+  {
+   "code": "hye_Armn",
+   "name": "Armenian",
+   "speakers_m": null,
+   "frontier_premium": 5.273704789833822,
+   "o200k": 1.7873702229003088,
+   "nllb": 1.4656972294504822,
+   "gpt2": 9.91998225114628
+  },
+  {
+   "code": "kat_Geor",
+   "name": "Georgian",
+   "speakers_m": null,
+   "frontier_premium": 5.189493501321459,
+   "o200k": 1.7854351951773155,
+   "nllb": 1.5606000306138068,
+   "gpt2": 13.761425824582162
+  },
+  {
+   "code": "ben_Beng",
+   "name": "Bengali",
+   "speakers_m": 270,
+   "frontier_premium": 5.025668875131241,
+   "o200k": 1.696572768206006,
+   "nllb": 1.26012551660799,
+   "gpt2": 9.5565005176749
+  },
+  {
+   "code": "ell_Grek",
+   "name": "Greek",
+   "speakers_m": null,
+   "frontier_premium": 4.90720828355237,
+   "o200k": 2.140401146131805,
+   "nllb": 1.6101943976733506,
+   "gpt2": 6.520670019227925
+  },
+  {
+   "code": "mar_Deva",
+   "name": "Marathi",
+   "speakers_m": null,
+   "frontier_premium": 4.621881901451794,
+   "o200k": 1.822089085699401,
+   "nllb": 1.247818766263585,
+   "gpt2": 7.863777547700044
+  },
+  {
+   "code": "san_Deva",
+   "name": "Sanskrit",
+   "speakers_m": null,
+   "frontier_premium": 4.511169038050759,
+   "o200k": 2.089197335615674,
+   "nllb": 1.3733659880606153,
+   "gpt2": 7.856641029433516
+  },
+  {
+   "code": "hin_Deva",
+   "name": "Hindi",
+   "speakers_m": 600,
+   "frontier_premium": 4.415951631005394,
+   "o200k": 1.5737729319391212,
+   "nllb": 1.1993877238634625,
+   "gpt2": 7.413215500665582
+  },
+  {
+   "code": "npi_Deva",
+   "name": "Nepali",
+   "speakers_m": null,
+   "frontier_premium": 4.4154085659462,
+   "o200k": 1.614148029620809,
+   "nllb": 1.161334761977652,
+   "gpt2": 7.550510279544446
+  },
+  {
+   "code": "mai_Deva",
+   "name": "Maithili",
+   "speakers_m": null,
+   "frontier_premium": 4.385902031063321,
+   "o200k": 1.7585308674133888,
+   "nllb": 1.2233277208020816,
+   "gpt2": 7.409628753143026
+  },
+  {
+   "code": "kas_Deva",
+   "name": "Kashmiri (Devanagari)",
+   "speakers_m": null,
+   "frontier_premium": 4.369935918323015,
+   "o200k": 2.233840657909426,
+   "nllb": 1.6444818613194552,
+   "gpt2": 7.00351279396539
+  },
+  {
+   "code": "awa_Deva",
+   "name": "Awadhi",
+   "speakers_m": null,
+   "frontier_premium": 4.305057745917961,
+   "o200k": 1.706620027536933,
+   "nllb": 1.195958977498852,
+   "gpt2": 7.149201301582606
+  },
+  {
+   "code": "bho_Deva",
+   "name": "Bhojpuri",
+   "speakers_m": null,
+   "frontier_premium": 4.300785634118967,
+   "o200k": 1.7724481821903024,
+   "nllb": 1.2551966937088628,
+   "gpt2": 7.17482620914066
+  },
+  {
+   "code": "hne_Deva",
+   "name": "Chhattisgarhi",
+   "speakers_m": null,
+   "frontier_premium": 4.212628072843127,
+   "o200k": 1.7293938153537007,
+   "nllb": 1.2287769784172662,
+   "gpt2": 7.1724966720899275
+  },
+  {
+   "code": "mag_Deva",
+   "name": "Magahi",
+   "speakers_m": null,
+   "frontier_premium": 4.190217588067051,
+   "o200k": 1.7170394075838202,
+   "nllb": 1.2066431960814328,
+   "gpt2": 7.197640881526401
+  },
+  {
+   "code": "kbp_Latn",
+   "name": "Kabiy\u00e8",
+   "speakers_m": null,
+   "frontier_premium": 3.9010158895545715,
+   "o200k": 3.9010158895545715,
+   "nllb": 1.513026174804837,
+   "gpt2": 4.835527288862594
+  },
+  {
+   "code": "uig_Arab",
+   "name": "Uighur",
+   "speakers_m": null,
+   "frontier_premium": 3.70587596394048,
+   "o200k": 2.5182153090462545,
+   "nllb": 1.3758763202204194,
+   "gpt2": 7.112853128235468
+  },
+  {
+   "code": "kas_Arab",
+   "name": "Kashmiri (Arabic script)",
+   "speakers_m": null,
+   "frontier_premium": 3.468375511386264,
+   "o200k": 2.6089383395973655,
+   "nllb": 1.7643043012398592,
+   "gpt2": 6.148720603461027
+  },
+  {
+   "code": "ckb_Arab",
+   "name": "Kurdish (Central)",
+   "speakers_m": null,
+   "frontier_premium": 3.44944064298903,
+   "o200k": 2.770178245822945,
+   "nllb": 1.2859023419562223,
+   "gpt2": 6.463429965981364
+  },
+  {
+   "code": "nus_Latn",
+   "name": "Nuer",
+   "speakers_m": null,
+   "frontier_premium": 3.391187864306144,
+   "o200k": 3.251181483273174,
+   "nllb": 1.8457064135925303,
+   "gpt2": 4.238352314746339
+  },
+  {
+   "code": "knc_Arab",
+   "name": "Central Kanuri (Arabic script)",
+   "speakers_m": null,
+   "frontier_premium": 3.14890843923102,
+   "o200k": 2.7625869832173557,
+   "nllb": 2.445798255013011,
+   "gpt2": 4.709806241680225
+  },
+  {
+   "code": "urd_Arab",
+   "name": "Urdu",
+   "speakers_m": 230,
+   "frontier_premium": 3.1484015785091053,
+   "o200k": 1.6526997357942916,
+   "nllb": 1.271575080361243,
+   "gpt2": 6.238574175417837
+  },
+  {
+   "code": "bak_Cyrl",
+   "name": "Bashkir",
+   "speakers_m": null,
+   "frontier_premium": 3.1228413163897035,
+   "o200k": 1.745543854426376,
+   "nllb": 1.201775600795959,
+   "gpt2": 5.99175417837598
+  },
+  {
+   "code": "khk_Cyrl",
+   "name": "Mongolian (Halh)",
+   "speakers_m": null,
+   "frontier_premium": 3.080047789725209,
+   "o200k": 1.890112752576936,
+   "nllb": 1.327200367365682,
+   "gpt2": 6.3764236059754476
+  },
+  {
+   "code": "kaz_Cyrl",
+   "name": "Kazakh",
+   "speakers_m": null,
+   "frontier_premium": 3.011223344556678,
+   "o200k": 1.5855691586350613,
+   "nllb": 1.1616715138527476,
+   "gpt2": 5.900865256618843
+  },
+  {
+   "code": "bel_Cyrl",
+   "name": "Belarusian",
+   "speakers_m": null,
+   "frontier_premium": 2.9716520039100685,
+   "o200k": 1.985524504149146,
+   "nllb": 1.6618398897902955,
+   "gpt2": 6.473894394320367
+  },
+  {
+   "code": "tgk_Cyrl",
+   "name": "Tajik",
+   "speakers_m": null,
+   "frontier_premium": 2.896419391043047,
+   "o200k": 1.8926431734454656,
+   "nllb": 1.5273228225929893,
+   "gpt2": 6.054836562638663
+  },
+  {
+   "code": "fon_Latn",
+   "name": "Fon",
+   "speakers_m": null,
+   "frontier_premium": 2.885610091913817,
+   "o200k": 2.885610091913817,
+   "nllb": 1.5544160416347772,
+   "gpt2": 4.078575654488981
+  },
+  {
+   "code": "tat_Cyrl",
+   "name": "Tatar",
+   "speakers_m": null,
+   "frontier_premium": 2.8685058470004705,
+   "o200k": 1.7482603356528859,
+   "nllb": 1.1890708709628042,
+   "gpt2": 5.796516787457477
+  },
+  {
+   "code": "snd_Arab",
+   "name": "Sindhi",
+   "speakers_m": null,
+   "frontier_premium": 2.845009232106006,
+   "o200k": 1.7101551743385555,
+   "nllb": 1.3109750497474362,
+   "gpt2": 4.970492530690726
+  },
+  {
+   "code": "pbt_Arab",
+   "name": "Pashto (Southern)",
+   "speakers_m": null,
+   "frontier_premium": 2.798884906411788,
+   "o200k": 1.7141368659993301,
+   "nllb": 1.4021735802847084,
+   "gpt2": 5.238796036089336
+  },
+  {
+   "code": "min_Arab",
+   "name": "Minangkabau (Arabic script)",
+   "speakers_m": null,
+   "frontier_premium": 2.780782737771985,
+   "o200k": 2.6599933018271127,
+   "nllb": 1.9153222103168528,
+   "gpt2": 5.232509983730218
+  },
+  {
+   "code": "kir_Cyrl",
+   "name": "Kirghiz",
+   "speakers_m": null,
+   "frontier_premium": 2.7519640852974185,
+   "o200k": 1.6736129200312582,
+   "nllb": 1.2324812490433186,
+   "gpt2": 5.742641621061973
+  },
+  {
+   "code": "ydd_Hebr",
+   "name": "Yiddish",
+   "speakers_m": null,
+   "frontier_premium": 2.747185112776511,
+   "o200k": 2.024001786179437,
+   "nllb": 1.6431960814327262,
+   "gpt2": 6.593699156929448
+  },
+  {
+   "code": "yor_Latn",
+   "name": "Yoruba",
+   "speakers_m": 45,
+   "frontier_premium": 2.6873031389160422,
+   "o200k": 2.1671566256093477,
+   "nllb": 1.4810653604775754,
+   "gpt2": 3.8860745451856236
+  },
+  {
+   "code": "ace_Arab",
+   "name": "Achinese (Arabic script)",
+   "speakers_m": null,
+   "frontier_premium": 2.6484558850150246,
+   "o200k": 2.6161946935585902,
+   "nllb": 1.831624062452166,
+   "gpt2": 4.74696790415619
+  },
+  {
+   "code": "kik_Latn",
+   "name": "Kikuyu",
+   "speakers_m": null,
+   "frontier_premium": 2.6321277289019225,
+   "o200k": 2.5985933836936703,
+   "nllb": 1.4800244910454614,
+   "gpt2": 3.4211655080609376
+  },
+  {
+   "code": "azb_Arab",
+   "name": "Azerbaijani (South)",
+   "speakers_m": null,
+   "frontier_premium": 2.6036349154628726,
+   "o200k": 1.8581475830759497,
+   "nllb": 1.3374559926526863,
+   "gpt2": 5.123798254696051
+  },
+  {
+   "code": "bjn_Arab",
+   "name": "Banjar (Arabic script)",
+   "speakers_m": null,
+   "frontier_premium": 2.601824698598892,
+   "o200k": 2.540505339932274,
+   "nllb": 1.8178784631868974,
+   "gpt2": 4.979847655672238
+  },
+  {
+   "code": "pes_Arab",
+   "name": "Persian (Western)",
+   "speakers_m": null,
+   "frontier_premium": 2.5771333405742007,
+   "o200k": 1.5300115357421948,
+   "nllb": 1.1194244604316548,
+   "gpt2": 5.250887442685993
+  },
+  {
+   "code": "tha_Thai",
+   "name": "Thai",
+   "speakers_m": null,
+   "frontier_premium": 2.5507765830346476,
+   "o200k": 1.964090350909835,
+   "nllb": 1.4957599877544772,
+   "gpt2": 8.991976039047477
+  },
+  {
+   "code": "tum_Latn",
+   "name": "Tumbuka",
+   "speakers_m": null,
+   "frontier_premium": 2.5152963325006334,
+   "o200k": 2.10683585755219,
+   "nllb": 1.4041634777284555,
+   "gpt2": 2.7918207365774292
+  },
+  {
+   "code": "ukr_Cyrl",
+   "name": "Ukrainian",
+   "speakers_m": null,
+   "frontier_premium": 2.4995836501212847,
+   "o200k": 1.7491162132995943,
+   "nllb": 1.2572784325730904,
+   "gpt2": 5.712431592959621
+  },
+  {
+   "code": "azj_Latn",
+   "name": "Azerbaijani (North)",
+   "speakers_m": null,
+   "frontier_premium": 2.4925238043517615,
+   "o200k": 1.7146578350016746,
+   "nllb": 1.3115260982703199,
+   "gpt2": 3.4617660109451265
+  },
+  {
+   "code": "prs_Arab",
+   "name": "Dari",
+   "speakers_m": null,
+   "frontier_premium": 2.483291698345462,
+   "o200k": 1.4761284560711494,
+   "nllb": 1.1017296800857186,
+   "gpt2": 5.067519597692649
+  },
+  {
+   "code": "arb_Latn",
+   "name": "Standard Arabic (Latin)",
+   "speakers_m": null,
+   "frontier_premium": 2.4158430179935557,
+   "o200k": 2.252967662709783,
+   "nllb": 1.8029083116485536,
+   "gpt2": 2.5136444312971453
+  },
+  {
+   "code": "ibo_Latn",
+   "name": "Igbo",
+   "speakers_m": 30,
+   "frontier_premium": 2.3839469968502227,
+   "o200k": 1.6655006884233245,
+   "nllb": 1.2985458441757232,
+   "gpt2": 3.483915101316373
+  },
+  {
+   "code": "gla_Latn",
+   "name": "Scottish Gaelic",
+   "speakers_m": null,
+   "frontier_premium": 2.3776112378262915,
+   "o200k": 1.9890968630223644,
+   "nllb": 1.5232511862850144,
+   "gpt2": 2.6947197160183403
+  },
+  {
+   "code": "kac_Latn",
+   "name": "Kachin",
+   "speakers_m": null,
+   "frontier_premium": 2.3520871800441694,
+   "o200k": 2.138875451196368,
+   "nllb": 1.4658809122914433,
+   "gpt2": 2.6835897056648426
+  },
+  {
+   "code": "ewe_Latn",
+   "name": "Ewe",
+   "speakers_m": null,
+   "frontier_premium": 2.3434343434343434,
+   "o200k": 2.3398578498865032,
+   "nllb": 1.240991887341191,
+   "gpt2": 2.878383375240349
+  },
+  {
+   "code": "mri_Latn",
+   "name": "Maori",
+   "speakers_m": null,
+   "frontier_premium": 2.3376416494696066,
+   "o200k": 1.8271127153648643,
+   "nllb": 1.362589928057554,
+   "gpt2": 2.451819257506286
+  },
+  {
+   "code": "srp_Cyrl",
+   "name": "Serbian",
+   "speakers_m": null,
+   "frontier_premium": 2.33275406393686,
+   "o200k": 1.7797417482231235,
+   "nllb": 1.225531914893617,
+   "gpt2": 5.321106345215205
+  },
+  {
+   "code": "gaz_Latn",
+   "name": "Oromo (West Central)",
+   "speakers_m": null,
+   "frontier_premium": 2.292096593171862,
+   "o200k": 1.8792468276708965,
+   "nllb": 1.3930812796571255,
+   "gpt2": 2.5248114184292265
+  },
+  {
+   "code": "aka_Latn",
+   "name": "Akan",
+   "speakers_m": null,
+   "frontier_premium": 2.2874624380000723,
+   "o200k": 2.0857366129572434,
+   "nllb": 1.3686820756161029,
+   "gpt2": 2.8121209880195237
+  },
+  {
+   "code": "gle_Latn",
+   "name": "Irish",
+   "speakers_m": null,
+   "frontier_premium": 2.2802577748814308,
+   "o200k": 1.848398020317791,
+   "nllb": 1.3869891320985765,
+   "gpt2": 2.5542449341813342
+  },
+  {
+   "code": "lvs_Latn",
+   "name": "Latvian",
+   "speakers_m": null,
+   "frontier_premium": 2.277759675609138,
+   "o200k": 1.8131581885163548,
+   "nllb": 1.174712995560998,
+   "gpt2": 2.5312084011240943
+  },
+  {
+   "code": "mkd_Cyrl",
+   "name": "Macedonian",
+   "speakers_m": null,
+   "frontier_premium": 2.2709170558632925,
+   "o200k": 1.7845048933874148,
+   "nllb": 1.221245981937854,
+   "gpt2": 5.461470196716462
+  },
+  {
+   "code": "smo_Latn",
+   "name": "Samoan",
+   "speakers_m": null,
+   "frontier_premium": 2.249520292531045,
+   "o200k": 1.9244594946600677,
+   "nllb": 1.5523343027705496,
+   "gpt2": 2.560826800769117
+  },
+  {
+   "code": "tsn_Latn",
+   "name": "Tswana",
+   "speakers_m": null,
+   "frontier_premium": 2.244017233264545,
+   "o200k": 1.908830424589737,
+   "nllb": 1.4100107148323895,
+   "gpt2": 2.3672903416654343
+  },
+  {
+   "code": "mlt_Latn",
+   "name": "Maltese",
+   "speakers_m": null,
+   "frontier_premium": 2.2407950472466602,
+   "o200k": 1.868343690693261,
+   "nllb": 1.4353589468850452,
+   "gpt2": 2.702558793077947
+  },
+  {
+   "code": "tso_Latn",
+   "name": "Tsonga",
+   "speakers_m": null,
+   "frontier_premium": 2.236559139784946,
+   "o200k": 1.7436832508465747,
+   "nllb": 1.2734425225776826,
+   "gpt2": 2.447197160183405
+  },
+  {
+   "code": "plt_Latn",
+   "name": "Malagasy (Plateau)",
+   "speakers_m": null,
+   "frontier_premium": 2.226566742695775,
+   "o200k": 1.7925799129237525,
+   "nllb": 1.3612123067503443,
+   "gpt2": 2.588078686584825
+  },
+  {
+   "code": "als_Latn",
+   "name": "Albanian (Tosk)",
+   "speakers_m": null,
+   "frontier_premium": 2.2254806125773867,
+   "o200k": 1.8312804673836192,
+   "nllb": 1.322149089239247,
+   "gpt2": 2.636925011093034
+  },
+  {
+   "code": "bul_Cyrl",
+   "name": "Bulgarian",
+   "speakers_m": null,
+   "frontier_premium": 2.2046269143043338,
+   "o200k": 1.7131693521378335,
+   "nllb": 1.2842798101943977,
+   "gpt2": 5.49696790415619
+  },
+  {
+   "code": "tuk_Latn",
+   "name": "Turkmen",
+   "speakers_m": null,
+   "frontier_premium": 2.197494659860251,
+   "o200k": 1.6678078368622782,
+   "nllb": 1.3320985764579825,
+   "gpt2": 2.819479366957551
+  },
+  {
+   "code": "sot_Latn",
+   "name": "Southern Sotho",
+   "speakers_m": null,
+   "frontier_premium": 2.194019043481409,
+   "o200k": 1.8359319763331226,
+   "nllb": 1.3606000306138069,
+   "gpt2": 2.3402233397426415
+  },
+  {
+   "code": "bem_Latn",
+   "name": "Bemba",
+   "speakers_m": null,
+   "frontier_premium": 2.187864306143876,
+   "o200k": 1.935027722993339,
+   "nllb": 1.3602632787387112,
+   "gpt2": 2.4450155302470047
+  },
+  {
+   "code": "zul_Latn",
+   "name": "Zulu",
+   "speakers_m": 27,
+   "frontier_premium": 2.187864306143876,
+   "o200k": 1.7206489785286347,
+   "nllb": 1.2187662635848768,
+   "gpt2": 2.4193906226889514
+  },
+  {
+   "code": "som_Latn",
+   "name": "Somali",
+   "speakers_m": null,
+   "frontier_premium": 2.185547228557981,
+   "o200k": 1.7232538235403565,
+   "nllb": 1.368131027093219,
+   "gpt2": 2.38130454074841
+  },
+  {
+   "code": "nso_Latn",
+   "name": "Pedi",
+   "speakers_m": null,
+   "frontier_premium": 2.1656710473914775,
+   "o200k": 1.8607896401592676,
+   "nllb": 1.3247818766263584,
+   "gpt2": 2.3184070403786423
+  },
+  {
+   "code": "knc_Latn",
+   "name": "Central Kanuri (Latin)",
+   "speakers_m": null,
+   "frontier_premium": 2.162774700409109,
+   "o200k": 2.125255832992223,
+   "nllb": 1.5186897290678096,
+   "gpt2": 2.5834565892619437
+  },
+  {
+   "code": "kmr_Latn",
+   "name": "Kurdish (Northern)",
+   "speakers_m": null,
+   "frontier_premium": 2.160928279207849,
+   "o200k": 2.016782644289808,
+   "nllb": 1.4083269554569111,
+   "gpt2": 2.4515604200562047
+  },
+  {
+   "code": "ayr_Latn",
+   "name": "Central Aymara",
+   "speakers_m": null,
+   "frontier_premium": 2.152239238260744,
+   "o200k": 1.9394931715848622,
+   "nllb": 1.299096892698607,
+   "gpt2": 2.3319035645614554
+  },
+  {
+   "code": "ssw_Latn",
+   "name": "Swati",
+   "speakers_m": null,
+   "frontier_premium": 2.1459396835740923,
+   "o200k": 1.8068693484166263,
+   "nllb": 1.2607377927445278,
+   "gpt2": 2.323435882265937
+  },
+  {
+   "code": "uzn_Latn",
+   "name": "Uzbek",
+   "speakers_m": null,
+   "frontier_premium": 2.1459034792368126,
+   "o200k": 1.7754623599895807,
+   "nllb": 1.2985152303688963,
+   "gpt2": 2.3015086525661883
+  },
+  {
+   "code": "twi_Latn",
+   "name": "Twi",
+   "speakers_m": null,
+   "frontier_premium": 2.1421020238224537,
+   "o200k": 1.8565102519257246,
+   "nllb": 1.2334302770549517,
+   "gpt2": 2.6064931223191836
+  },
+  {
+   "code": "fij_Latn",
+   "name": "Fijian",
+   "speakers_m": null,
+   "frontier_premium": 2.140979689366786,
+   "o200k": 1.8522680757637777,
+   "nllb": 1.3076075309964794,
+   "gpt2": 2.3131933145984322
+  },
+  {
+   "code": "ltg_Latn",
+   "name": "Latgalian",
+   "speakers_m": null,
+   "frontier_premium": 2.1392056768400853,
+   "o200k": 1.8855728798422209,
+   "nllb": 1.387356497780499,
+   "gpt2": 2.388810826800769
+  },
+  {
+   "code": "kab_Latn",
+   "name": "Kabyle",
+   "speakers_m": null,
+   "frontier_premium": 2.1389870874111563,
+   "o200k": 2.1389870874111563,
+   "nllb": 1.5260064288994337,
+   "gpt2": 2.4945644135482916
+  },
+  {
+   "code": "bam_Latn",
+   "name": "Bambara",
+   "speakers_m": null,
+   "frontier_premium": 2.130878679265776,
+   "o200k": 2.0382912216723104,
+   "nllb": 1.252839430583193,
+   "gpt2": 2.658001774885372
+  },
+  {
+   "code": "hun_Latn",
+   "name": "Hungarian",
+   "speakers_m": null,
+   "frontier_premium": 2.120958690851164,
+   "o200k": 1.7939567595728054,
+   "nllb": 1.2531761824582888,
+   "gpt2": 2.6629566632155006
+  },
+  {
+   "code": "run_Latn",
+   "name": "Rundi",
+   "speakers_m": null,
+   "frontier_premium": 2.118388182904312,
+   "o200k": 1.780374353440256,
+   "nllb": 1.3082504209398438,
+   "gpt2": 2.339816595178228
+  },
+  {
+   "code": "sna_Latn",
+   "name": "Shona",
+   "speakers_m": null,
+   "frontier_premium": 2.1133195756851673,
+   "o200k": 1.7007033081531648,
+   "nllb": 1.2067350375019135,
+   "gpt2": 2.2972563230291376
+  },
+  {
+   "code": "cym_Latn",
+   "name": "Welsh",
+   "speakers_m": null,
+   "frontier_premium": 2.1100249809927227,
+   "o200k": 1.7392550143266476,
+   "nllb": 1.3570794428287158,
+   "gpt2": 2.364258245821624
+  },
+  {
+   "code": "kin_Latn",
+   "name": "Kinyarwanda",
+   "speakers_m": null,
+   "frontier_premium": 2.10937330292169,
+   "o200k": 1.7128716555650654,
+   "nllb": 1.2750344405326803,
+   "gpt2": 2.3602647537346546
+  },
+  {
+   "code": "kmb_Latn",
+   "name": "Kimbundu",
+   "speakers_m": null,
+   "frontier_premium": 2.1088664421997754,
+   "o200k": 1.8335131916793808,
+   "nllb": 1.3254859941833768,
+   "gpt2": 2.336118917319923
+  },
+  {
+   "code": "isl_Latn",
+   "name": "Icelandic",
+   "speakers_m": null,
+   "frontier_premium": 2.0969190108975053,
+   "o200k": 1.6085662188814052,
+   "nllb": 1.274299709168835,
+   "gpt2": 2.42434551101908
+  },
+  {
+   "code": "szl_Latn",
+   "name": "Silesian",
+   "speakers_m": null,
+   "frontier_premium": 2.0934071901813835,
+   "o200k": 1.964090350909835,
+   "nllb": 1.4867901423542018,
+   "gpt2": 2.600059162845733
+  },
+  {
+   "code": "grn_Latn",
+   "name": "Guarani",
+   "speakers_m": null,
+   "frontier_premium": 2.0860939140509034,
+   "o200k": 1.7781788412160906,
+   "nllb": 1.3154446655441605,
+   "gpt2": 2.4512646058275402
+  },
+  {
+   "code": "taq_Latn",
+   "name": "Tamasheq (Latin)",
+   "speakers_m": null,
+   "frontier_premium": 2.076545231273025,
+   "o200k": 2.076545231273025,
+   "nllb": 1.4759834685443134,
+   "gpt2": 2.3826357047773996
+  },
+  {
+   "code": "slk_Latn",
+   "name": "Slovak",
+   "speakers_m": null,
+   "frontier_premium": 2.0734948046776003,
+   "o200k": 1.6770364306180925,
+   "nllb": 1.188121842951171,
+   "gpt2": 2.50957698565301
+  },
+  {
+   "code": "ces_Latn",
+   "name": "Czech",
+   "speakers_m": null,
+   "frontier_premium": 2.0653850331269688,
+   "o200k": 1.596807204257061,
+   "nllb": 1.2422776672279199,
+   "gpt2": 2.621468717645319
+  },
+  {
+   "code": "nya_Latn",
+   "name": "Chichewa",
+   "speakers_m": null,
+   "frontier_premium": 2.06342999891387,
+   "o200k": 1.6121757898262197,
+   "nllb": 1.1412827185060461,
+   "gpt2": 2.2625351279396537
+  },
+  {
+   "code": "quy_Latn",
+   "name": "Quechua (Ayacucho)",
+   "speakers_m": null,
+   "frontier_premium": 2.0627059121682776,
+   "o200k": 1.829568712090202,
+   "nllb": 1.2592377162100108,
+   "gpt2": 2.2110634521520485
+  },
+  {
+   "code": "fao_Latn",
+   "name": "Faroese",
+   "speakers_m": null,
+   "frontier_premium": 2.0499619854458566,
+   "o200k": 1.6547836118036692,
+   "nllb": 1.2990356650849533,
+   "gpt2": 2.388071291229108
+  },
+  {
+   "code": "tgl_Latn",
+   "name": "Tagalog",
+   "speakers_m": null,
+   "frontier_premium": 2.0441692914811194,
+   "o200k": 1.6948238008409928,
+   "nllb": 1.3270779121383744,
+   "gpt2": 2.2851279396538975
+  },
+  {
+   "code": "sag_Latn",
+   "name": "Sango",
+   "speakers_m": null,
+   "frontier_premium": 2.042540096303537,
+   "o200k": 1.8217169649834406,
+   "nllb": 1.3624368590234195,
+   "gpt2": 2.2374648720603463
+  },
+  {
+   "code": "lit_Latn",
+   "name": "Lithuanian",
+   "speakers_m": null,
+   "frontier_premium": 2.0414177618478693,
+   "o200k": 1.6757340081122316,
+   "nllb": 1.1603857339660186,
+   "gpt2": 2.4298550510279546
+  },
+  {
+   "code": "mos_Latn",
+   "name": "Mossi",
+   "speakers_m": null,
+   "frontier_premium": 2.039245501611093,
+   "o200k": 2.035909649090165,
+   "nllb": 1.3290065819684678,
+   "gpt2": 2.5027362816151455
+  },
+  {
+   "code": "xho_Latn",
+   "name": "Xhosa",
+   "speakers_m": null,
+   "frontier_premium": 2.0337062380073134,
+   "o200k": 1.637145089867153,
+   "nllb": 1.1889790295423235,
+   "gpt2": 2.253808608194054
+  },
+  {
+   "code": "ilo_Latn",
+   "name": "Iloko",
+   "speakers_m": null,
+   "frontier_premium": 2.0321494515042904,
+   "o200k": 1.8432255423659436,
+   "nllb": 1.311985305372723,
+   "gpt2": 2.264236059754474
+  },
+  {
+   "code": "tpi_Latn",
+   "name": "Tok Pisin",
+   "speakers_m": null,
+   "frontier_premium": 2.0251982187466058,
+   "o200k": 1.7925054887805605,
+   "nllb": 1.36586560538803,
+   "gpt2": 2.2098801952373908
+  },
+  {
+   "code": "dik_Latn",
+   "name": "Southwestern Dinka",
+   "speakers_m": null,
+   "frontier_premium": 2.0076753195032766,
+   "o200k": 1.8580359468611618,
+   "nllb": 1.225287004439002,
+   "gpt2": 2.4683109007543265
+  },
+  {
+   "code": "lmo_Latn",
+   "name": "Lombard",
+   "speakers_m": null,
+   "frontier_premium": 2.004344520473553,
+   "o200k": 1.8441186320842482,
+   "nllb": 1.5655900811265882,
+   "gpt2": 2.372282206774146
+  },
+  {
+   "code": "umb_Latn",
+   "name": "Umbundu",
+   "speakers_m": null,
+   "frontier_premium": 1.9938814669997467,
+   "o200k": 1.7888587057641498,
+   "nllb": 1.2773304760446962,
+   "gpt2": 2.2637183848543114
+  },
+  {
+   "code": "kam_Latn",
+   "name": "Kamba",
+   "speakers_m": null,
+   "frontier_premium": 1.9847217696680062,
+   "o200k": 1.820675026978752,
+   "nllb": 1.256604928822899,
+   "gpt2": 2.317519597692649
+  },
+  {
+   "code": "fin_Latn",
+   "name": "Finnish",
+   "speakers_m": null,
+   "frontier_premium": 1.975091415951631,
+   "o200k": 1.5613441000260484,
+   "nllb": 1.1958977498851981,
+   "gpt2": 2.278804910516196
+  },
+  {
+   "code": "kon_Latn",
+   "name": "Kongo",
+   "speakers_m": null,
+   "frontier_premium": 1.9750552116143514,
+   "o200k": 1.758865776057753,
+   "nllb": 1.198469309658656,
+   "gpt2": 2.176009466055317
+  },
+  {
+   "code": "lus_Latn",
+   "name": "Lushai",
+   "speakers_m": null,
+   "frontier_premium": 1.9671264617501176,
+   "o200k": 1.8278569567967848,
+   "nllb": 1.2982703199142813,
+   "gpt2": 2.117734063008431
+  },
+  {
+   "code": "srd_Latn",
+   "name": "Sardinian",
+   "speakers_m": null,
+   "frontier_premium": 1.9661489446435683,
+   "o200k": 1.784914226174971,
+   "nllb": 1.4117557018215214,
+   "gpt2": 2.2543632598728
+  },
+  {
+   "code": "ace_Latn",
+   "name": "Achinese (Latin)",
+   "speakers_m": null,
+   "frontier_premium": 1.964628362477825,
+   "o200k": 1.8153164886689241,
+   "nllb": 1.2203275677330476,
+   "gpt2": 2.1737538825617513
+  },
+  {
+   "code": "dyu_Latn",
+   "name": "Dyula",
+   "speakers_m": null,
+   "frontier_premium": 1.963687049708555,
+   "o200k": 1.85833364343393,
+   "nllb": 1.4106842185825808,
+   "gpt2": 2.2118399645022926
+  },
+  {
+   "code": "ltz_Latn",
+   "name": "Luxembourgish",
+   "speakers_m": null,
+   "frontier_premium": 1.9615509938090583,
+   "o200k": 1.6679566851486622,
+   "nllb": 1.4123067503444053,
+   "gpt2": 2.246080461470197
+  },
+  {
+   "code": "lij_Latn",
+   "name": "Ligurian",
+   "speakers_m": null,
+   "frontier_premium": 1.9530429745483509,
+   "o200k": 1.8094369813567521,
+   "nllb": 1.5634165008418797,
+   "gpt2": 2.292486318591924
+  },
+  {
+   "code": "scn_Latn",
+   "name": "Sicilian",
+   "speakers_m": null,
+   "frontier_premium": 1.9481191846783246,
+   "o200k": 1.8130093402299705,
+   "nllb": 1.4049288228991275,
+   "gpt2": 2.266269782576542
+  },
+  {
+   "code": "bug_Latn",
+   "name": "Buginese",
+   "speakers_m": null,
+   "frontier_premium": 1.9468882372108178,
+   "o200k": 1.7390689539686675,
+   "nllb": 1.2615031379151997,
+   "gpt2": 2.1881748262091407
+  },
+  {
+   "code": "crh_Latn",
+   "name": "Crimean Tatar",
+   "speakers_m": null,
+   "frontier_premium": 1.9459469244415482,
+   "o200k": 1.7229561269675884,
+   "nllb": 1.236185519669371,
+   "gpt2": 2.4784425380860817
+  },
+  {
+   "code": "lug_Latn",
+   "name": "Luganda",
+   "speakers_m": null,
+   "frontier_premium": 1.9441729119148474,
+   "o200k": 1.6623748744092584,
+   "nllb": 1.240440838818307,
+   "gpt2": 2.1782280727703003
+  },
+  {
+   "code": "hau_Latn",
+   "name": "Hausa",
+   "speakers_m": 80,
+   "frontier_premium": 1.9441005032402883,
+   "o200k": 1.5502549026904329,
+   "nllb": 1.1655594673197611,
+   "gpt2": 2.138884780357935
+  },
+  {
+   "code": "war_Latn",
+   "name": "Waray",
+   "speakers_m": null,
+   "frontier_premium": 1.939249122044821,
+   "o200k": 1.7201652215978864,
+   "nllb": 1.3399663248124905,
+   "gpt2": 2.390141990829759
+  },
+  {
+   "code": "swh_Latn",
+   "name": "Swahili",
+   "speakers_m": 80,
+   "frontier_premium": 1.9363165707251728,
+   "o200k": 1.485654746399732,
+   "nllb": 1.1208020817388642,
+   "gpt2": 2.1321919834344034
+  },
+  {
+   "code": "lua_Latn",
+   "name": "Luba-Lulua",
+   "speakers_m": null,
+   "frontier_premium": 1.935302849281344,
+   "o200k": 1.6990659770029397,
+   "nllb": 1.1999081585795193,
+   "gpt2": 2.1399940837154268
+  },
+  {
+   "code": "cjk_Latn",
+   "name": "Chokwe",
+   "speakers_m": null,
+   "frontier_premium": 1.9207125013576627,
+   "o200k": 1.731291631005098,
+   "nllb": 1.3055257921322516,
+   "gpt2": 2.145355716609969
+  },
+  {
+   "code": "ceb_Latn",
+   "name": "Cebuano",
+   "speakers_m": null,
+   "frontier_premium": 1.9154266681148402,
+   "o200k": 1.6753246753246753,
+   "nllb": 1.270289300474514,
+   "gpt2": 2.2481511610708473
+  },
+  {
+   "code": "wol_Latn",
+   "name": "Wolof",
+   "speakers_m": null,
+   "frontier_premium": 1.9074979182506064,
+   "o200k": 1.7321475086518066,
+   "nllb": 1.2985458441757232,
+   "gpt2": 2.1546738648128976
+  },
+  {
+   "code": "slv_Latn",
+   "name": "Slovenian",
+   "speakers_m": null,
+   "frontier_premium": 1.8666232214619312,
+   "o200k": 1.5114427120157778,
+   "nllb": 1.1552120006122761,
+   "gpt2": 2.114923827836119
+  },
+  {
+   "code": "eus_Latn",
+   "name": "Basque",
+   "speakers_m": null,
+   "frontier_premium": 1.8664784041128126,
+   "o200k": 1.6037658616455177,
+   "nllb": 1.2467778968314709,
+   "gpt2": 2.0968791598875907
+  },
+  {
+   "code": "ron_Latn",
+   "name": "Romanian",
+   "speakers_m": null,
+   "frontier_premium": 1.8604684841243981,
+   "o200k": 1.6323447326312657,
+   "nllb": 1.3298025409459666,
+   "gpt2": 2.4863185919242716
+  },
+  {
+   "code": "lin_Latn",
+   "name": "Lingala",
+   "speakers_m": null,
+   "frontier_premium": 1.856703233047319,
+   "o200k": 1.616938934990511,
+   "nllb": 1.1120771467932038,
+   "gpt2": 2.031393285017009
+  },
+  {
+   "code": "bos_Latn",
+   "name": "Bosnian",
+   "speakers_m": null,
+   "frontier_premium": 1.856160167988125,
+   "o200k": 1.499981393964202,
+   "nllb": 1.1742537884585948,
+   "gpt2": 2.1859562194941575
+  },
+  {
+   "code": "est_Latn",
+   "name": "Estonian",
+   "speakers_m": null,
+   "frontier_premium": 1.8536258643785526,
+   "o200k": 1.4953298850146988,
+   "nllb": 1.1479565283943058,
+   "gpt2": 2.1192131341517526
+  },
+  {
+   "code": "fur_Latn",
+   "name": "Friulian",
+   "speakers_m": null,
+   "frontier_premium": 1.833170413815575,
+   "o200k": 1.732445205224575,
+   "nllb": 1.345905403336905,
+   "gpt2": 2.0687028546073067
+  },
+  {
+   "code": "hrv_Latn",
+   "name": "Croatian",
+   "speakers_m": null,
+   "frontier_premium": 1.8264364070815684,
+   "o200k": 1.4794775425147917,
+   "nllb": 1.153956834532374,
+   "gpt2": 2.140807572844254
+  },
+  {
+   "code": "oci_Latn",
+   "name": "Occitan",
+   "speakers_m": null,
+   "frontier_premium": 1.8112305854241337,
+   "o200k": 1.601235440776988,
+   "nllb": 1.3745599265268635,
+   "gpt2": 2.065411921313415
+  },
+  {
+   "code": "luo_Latn",
+   "name": "Luo",
+   "speakers_m": null,
+   "frontier_premium": 1.8070670866369791,
+   "o200k": 1.6758456443270198,
+   "nllb": 1.2188581050053575,
+   "gpt2": 2.0418946901345953
+  },
+  {
+   "code": "sun_Latn",
+   "name": "Sundanese",
+   "speakers_m": null,
+   "frontier_premium": 1.8001520582165744,
+   "o200k": 1.3849960927324825,
+   "nllb": 1.033613959895913,
+   "gpt2": 2.0166765271409557
+  },
+  {
+   "code": "lim_Latn",
+   "name": "Limburgan",
+   "speakers_m": null,
+   "frontier_premium": 1.795228268346548,
+   "o200k": 1.6053287686525508,
+   "nllb": 1.4127047298331548,
+   "gpt2": 2.0621209880195237
+  },
+  {
+   "code": "epo_Latn",
+   "name": "Esperanto",
+   "speakers_m": null,
+   "frontier_premium": 1.7936714818435249,
+   "o200k": 1.525955419938228,
+   "nllb": 1.213163936935558,
+   "gpt2": 2.023850022186067
+  },
+  {
+   "code": "ban_Latn",
+   "name": "Balinese",
+   "speakers_m": null,
+   "frontier_premium": 1.7774157344049817,
+   "o200k": 1.5723588732184721,
+   "nllb": 1.0684524720649013,
+   "gpt2": 1.9645762461174383
+  },
+  {
+   "code": "min_Latn",
+   "name": "Minangkabau (Latin)",
+   "speakers_m": null,
+   "frontier_premium": 1.7668078635820572,
+   "o200k": 1.5600788895917836,
+   "nllb": 1.1407010561763355,
+   "gpt2": 1.984432776216536
+  },
+  {
+   "code": "pol_Latn",
+   "name": "Polish",
+   "speakers_m": null,
+   "frontier_premium": 1.764889033706238,
+   "o200k": 1.6385219365162058,
+   "nllb": 1.3427521812337364,
+   "gpt2": 2.681038307942612
+  },
+  {
+   "code": "rus_Cyrl",
+   "name": "Russian",
+   "speakers_m": 250,
+   "frontier_premium": 1.7548604322797872,
+   "o200k": 1.4210545901090315,
+   "nllb": 1.3075769171896525,
+   "gpt2": 5.6752699304836565
+  },
+  {
+   "code": "fuv_Latn",
+   "name": "Fulfulde (Nigerian)",
+   "speakers_m": null,
+   "frontier_premium": 1.750552116143514,
+   "o200k": 1.6007516838462397,
+   "nllb": 1.2084494106842185,
+   "gpt2": 1.9853571956811122
+  },
+  {
+   "code": "pap_Latn",
+   "name": "Papiamento",
+   "speakers_m": null,
+   "frontier_premium": 1.7294811918467832,
+   "o200k": 1.5841550999144123,
+   "nllb": 1.2493800704117557,
+   "gpt2": 1.98435882265937
+  },
+  {
+   "code": "hat_Latn",
+   "name": "Haitian",
+   "speakers_m": null,
+   "frontier_premium": 1.7190543427102567,
+   "o200k": 1.4120120567111971,
+   "nllb": 1.09279044849227,
+   "gpt2": 1.902862002662328
+  },
+  {
+   "code": "jav_Latn",
+   "name": "Javanese",
+   "speakers_m": null,
+   "frontier_premium": 1.7165924477752434,
+   "o200k": 1.3703717485952442,
+   "nllb": 1.0239093831317925,
+   "gpt2": 1.9341443573435881
+  },
+  {
+   "code": "kea_Latn",
+   "name": "Kabuverdianu",
+   "speakers_m": null,
+   "frontier_premium": 1.7060207812895984,
+   "o200k": 1.5479477542514792,
+   "nllb": 1.258411143425685,
+   "gpt2": 1.940652270374205
+  },
+  {
+   "code": "bjn_Latn",
+   "name": "Banjar (Latin)",
+   "speakers_m": null,
+   "frontier_premium": 1.6986713008218384,
+   "o200k": 1.44803334201615,
+   "nllb": 1.0713607837134547,
+   "gpt2": 1.984543706552285
+  },
+  {
+   "code": "ary_Arab",
+   "name": "Moroccan Arabic",
+   "speakers_m": null,
+   "frontier_premium": 1.694399189022845,
+   "o200k": 1.48286384103003,
+   "nllb": 1.3680697994795652,
+   "gpt2": 4.178930631563378
+  },
+  {
+   "code": "cat_Latn",
+   "name": "Catalan",
+   "speakers_m": null,
+   "frontier_premium": 1.6874841606024402,
+   "o200k": 1.48286384103003,
+   "nllb": 1.232909842338895,
+   "gpt2": 1.9148424789232361
+  },
+  {
+   "code": "vec_Latn",
+   "name": "Venetian",
+   "speakers_m": null,
+   "frontier_premium": 1.681438036276746,
+   "o200k": 1.5560227737878167,
+   "nllb": 1.2764426756467167,
+   "gpt2": 2.0112779174678304
+  },
+  {
+   "code": "afr_Latn",
+   "name": "Afrikaans",
+   "speakers_m": null,
+   "frontier_premium": 1.6764780420694398,
+   "o200k": 1.42752949056674,
+   "nllb": 1.2015306903413439,
+   "gpt2": 1.934070403786422
+  },
+  {
+   "code": "jpn_Jpan",
+   "name": "Japanese",
+   "speakers_m": 125,
+   "frontier_premium": 1.6581326982473115,
+   "o200k": 1.6581326982473115,
+   "nllb": 1.0033981325577837,
+   "gpt2": 2.966018340482177
+  },
+  {
+   "code": "aeb_Arab",
+   "name": "Tunisian Arabic",
+   "speakers_m": null,
+   "frontier_premium": 1.6493247891097353,
+   "o200k": 1.420608045249879,
+   "nllb": 1.357814174192561,
+   "gpt2": 4.158482473006952
+  },
+  {
+   "code": "arz_Arab",
+   "name": "Egyptian Arabic",
+   "speakers_m": null,
+   "frontier_premium": 1.6340465587777415,
+   "o200k": 1.4055743683250848,
+   "nllb": 1.3355885504362468,
+   "gpt2": 4.196087856825914
+  },
+  {
+   "code": "ars_Arab",
+   "name": "Najdi Arabic",
+   "speakers_m": null,
+   "frontier_premium": 1.6327432026356758,
+   "o200k": 1.3856286979496149,
+   "nllb": 1.3744986989132097,
+   "gpt2": 4.364591036828871
+  },
+  {
+   "code": "nno_Latn",
+   "name": "Norwegian Nynorsk",
+   "speakers_m": null,
+   "frontier_premium": 1.6302813077006626,
+   "o200k": 1.4068395787593495,
+   "nllb": 1.141099035665085,
+   "gpt2": 1.9300769116994527
+  },
+  {
+   "code": "acq_Arab",
+   "name": "Ta'izzi-Adeni Arabic",
+   "speakers_m": null,
+   "frontier_premium": 1.6301002860142646,
+   "o200k": 1.3899080861831579,
+   "nllb": 1.3602020511250574,
+   "gpt2": 4.302839816595179
+  },
+  {
+   "code": "kor_Hang",
+   "name": "Korean",
+   "speakers_m": null,
+   "frontier_premium": 1.6299192643278664,
+   "o200k": 1.472332824768355,
+   "nllb": 1.0229603551201591,
+   "gpt2": 5.02643839668688
+  },
+  {
+   "code": "arb_Arab",
+   "name": "Arabic (MSA)",
+   "speakers_m": 270,
+   "frontier_premium": 1.6288693385467579,
+   "o200k": 1.3812004614296878,
+   "nllb": 1.3683453237410073,
+   "gpt2": 4.358637775477001
+  },
+  {
+   "code": "ita_Latn",
+   "name": "Italian",
+   "speakers_m": null,
+   "frontier_premium": 1.6257557655407118,
+   "o200k": 1.4690953745395006,
+   "nllb": 1.2383284861472523,
+   "gpt2": 2.0151235024404675
+  },
+  {
+   "code": "tur_Latn",
+   "name": "Turkish",
+   "speakers_m": null,
+   "frontier_premium": 1.6242351833749684,
+   "o200k": 1.4311018494399583,
+   "nllb": 1.1299862237869278,
+   "gpt2": 2.4404304097027065
+  },
+  {
+   "code": "acm_Arab",
+   "name": "Mesopotamian Arabic",
+   "speakers_m": null,
+   "frontier_premium": 1.6185148980847905,
+   "o200k": 1.3804562199977672,
+   "nllb": 1.3459360171437318,
+   "gpt2": 4.21775624907558
+  },
+  {
+   "code": "dan_Latn",
+   "name": "Danish",
+   "speakers_m": null,
+   "frontier_premium": 1.6167770898953695,
+   "o200k": 1.3949317158486212,
+   "nllb": 1.107944282871575,
+   "gpt2": 1.909480846028694
+  },
+  {
+   "code": "zsm_Latn",
+   "name": "Malay",
+   "speakers_m": null,
+   "frontier_premium": 1.608088048948264,
+   "o200k": 1.3009340229970603,
+   "nllb": 0.958273381294964,
+   "gpt2": 2.0427821328205886
+  },
+  {
+   "code": "nld_Latn",
+   "name": "Dutch",
+   "speakers_m": null,
+   "frontier_premium": 1.590709967054053,
+   "o200k": 1.247125367469207,
+   "nllb": 1.1771314863003215,
+   "gpt2": 1.9775550954000887
+  },
+  {
+   "code": "fra_Latn",
+   "name": "French",
+   "speakers_m": 300,
+   "frontier_premium": 1.5819123130951087,
+   "o200k": 1.3697019313065157,
+   "nllb": 1.33124138986683,
+   "gpt2": 2.0008504659074102
+  },
+  {
+   "code": "apc_Arab",
+   "name": "Levantine Arabic",
+   "speakers_m": null,
+   "frontier_premium": 1.5753593280475,
+   "o200k": 1.345476872697503,
+   "nllb": 1.3089545384968622,
+   "gpt2": 3.992382783611892
+  },
+  {
+   "code": "ast_Latn",
+   "name": "Asturian",
+   "speakers_m": null,
+   "frontier_premium": 1.5691683863726875,
+   "o200k": 1.4237338592639452,
+   "nllb": 1.164855349762743,
+   "gpt2": 1.897611300103535
+  },
+  {
+   "code": "swe_Latn",
+   "name": "Swedish",
+   "speakers_m": null,
+   "frontier_premium": 1.5654755439701675,
+   "o200k": 1.3503144420049864,
+   "nllb": 1.1139445890096433,
+   "gpt2": 1.9440541340038455
+  },
+  {
+   "code": "deu_Latn",
+   "name": "German",
+   "speakers_m": 130,
+   "frontier_premium": 1.5588863545852794,
+   "o200k": 1.310758009898411,
+   "nllb": 1.2752793509872953,
+   "gpt2": 2.141879899423162
+  },
+  {
+   "code": "nob_Latn",
+   "name": "Norwegian Bokmal",
+   "speakers_m": null,
+   "frontier_premium": 1.5526230042359075,
+   "o200k": 1.3490864436423176,
+   "nllb": 1.0867595285473748,
+   "gpt2": 1.8599319627274071
+  },
+  {
+   "code": "ajp_Arab",
+   "name": "South Levantine Arabic",
+   "speakers_m": null,
+   "frontier_premium": 1.5482060750877955,
+   "o200k": 1.3400439102444832,
+   "nllb": 1.2893004745140058,
+   "gpt2": 3.9876867327318446
+  },
+  {
+   "code": "pag_Latn",
+   "name": "Pangasinan",
+   "speakers_m": null,
+   "frontier_premium": 1.5453821367799863,
+   "o200k": 1.4283853682134484,
+   "nllb": 1.0962498086637074,
+   "gpt2": 1.6484987427895281
+  },
+  {
+   "code": "glg_Latn",
+   "name": "Galician",
+   "speakers_m": null,
+   "frontier_premium": 1.543282285217769,
+   "o200k": 1.335169128865404,
+   "nllb": 1.1440379611204654,
+   "gpt2": 1.9114406152935957
+  },
+  {
+   "code": "ind_Latn",
+   "name": "Indonesian",
+   "speakers_m": 200,
+   "frontier_premium": 1.5424495854603382,
+   "o200k": 1.2492092434785844,
+   "nllb": 0.9379764273687433,
+   "gpt2": 1.9775550954000887
+  },
+  {
+   "code": "spa_Latn",
+   "name": "Spanish",
+   "speakers_m": 550,
+   "frontier_premium": 1.522428586944716,
+   "o200k": 1.317865515573252,
+   "nllb": 1.2245828868819837,
+   "gpt2": 1.9811418429226446
+  },
+  {
+   "code": "vie_Latn",
+   "name": "Vietnamese",
+   "speakers_m": null,
+   "frontier_premium": 1.4895992259889108,
+   "o200k": 1.4895992259889108,
+   "nllb": 1.1692331241389866,
+   "gpt2": 4.521446531578169
+  },
+  {
+   "code": "heb_Hebr",
+   "name": "Hebrew",
+   "speakers_m": null,
+   "frontier_premium": 1.4833103858891825,
+   "o200k": 1.4833103858891825,
+   "nllb": 1.2152762896066125,
+   "gpt2": 4.349800325395652
+  },
+  {
+   "code": "por_Latn",
+   "name": "Portuguese",
+   "speakers_m": 260,
+   "frontier_premium": 1.4524456029832373,
+   "o200k": 1.2250958210843597,
+   "nllb": 1.1594673197612122,
+   "gpt2": 1.934107380565005
+  },
+  {
+   "code": "zho_Hant",
+   "name": "Chinese (traditional)",
+   "speakers_m": null,
+   "frontier_premium": 1.417705503665389,
+   "o200k": 1.417705503665389,
+   "nllb": 1.070044390019899,
+   "gpt2": 3.1129640585712175
+  },
+  {
+   "code": "yue_Hant",
+   "name": "Cantonese",
+   "speakers_m": null,
+   "frontier_premium": 1.380084099281807,
+   "o200k": 1.380084099281807,
+   "nllb": 1.0454615031379153,
+   "gpt2": 3.057979588818222
+  },
+  {
+   "code": "zho_Hans",
+   "name": "Mandarin",
+   "speakers_m": 1100,
+   "frontier_premium": 1.248651062404644,
+   "o200k": 1.248651062404644,
+   "nllb": 1.0869432113883362,
+   "gpt2": 3.145947345067298
+  },
+  {
+   "code": "eng_Latn",
+   "name": "English",
+   "speakers_m": 1500,
+   "frontier_premium": 1.0,
+   "o200k": 1.0,
+   "nllb": 1.0,
+   "gpt2": 1.0
+  }
+ ],
+ "big_languages": [
+  {
+   "code": "mya_Mymr",
+   "name": "Burmese",
+   "speakers_m": 40,
+   "frontier_premium": 8.928387820860939,
+   "o200k": 3.1641052357384734,
+   "nllb": 1.5459054033369048,
+   "gpt2": 16.81293447714835
+  },
+  {
+   "code": "tel_Telu",
+   "name": "Telugu",
+   "speakers_m": 95,
+   "frontier_premium": 6.9944969407335,
+   "o200k": 1.9299296691846834,
+   "nllb": 1.3069952548599417,
+   "gpt2": 12.971342996598135
+  },
+  {
+   "code": "sin_Sinh",
+   "name": "Sinhala",
+   "speakers_m": 17,
+   "frontier_premium": 6.877231092284855,
+   "o200k": 2.695344769843337,
+   "nllb": 1.6234807898362162,
+   "gpt2": 12.652972932998077
+  },
+  {
+   "code": "khm_Khmr",
+   "name": "Khmer",
+   "speakers_m": 18,
+   "frontier_premium": 6.469606458853771,
+   "o200k": 3.3357645220109404,
+   "nllb": 1.7297719271391399,
+   "gpt2": 15.182147611300104
+  },
+  {
+   "code": "tam_Taml",
+   "name": "Tamil",
+   "speakers_m": 85,
+   "frontier_premium": 6.112305854241338,
+   "o200k": 1.9796449968369738,
+   "nllb": 1.3905403336904945,
+   "gpt2": 15.536791894690134
+  },
+  {
+   "code": "amh_Ethi",
+   "name": "Amharic",
+   "speakers_m": 60,
+   "frontier_premium": 5.7786625981468385,
+   "o200k": 5.7786625981468385,
+   "nllb": 1.2901576611051584,
+   "gpt2": 7.7021520485135335
+  },
+  {
+   "code": "ben_Beng",
+   "name": "Bengali",
+   "speakers_m": 270,
+   "frontier_premium": 5.025668875131241,
+   "o200k": 1.696572768206006,
+   "nllb": 1.26012551660799,
+   "gpt2": 9.5565005176749
+  },
+  {
+   "code": "hin_Deva",
+   "name": "Hindi",
+   "speakers_m": 600,
+   "frontier_premium": 4.415951631005394,
+   "o200k": 1.5737729319391212,
+   "nllb": 1.1993877238634625,
+   "gpt2": 7.413215500665582
+  },
+  {
+   "code": "urd_Arab",
+   "name": "Urdu",
+   "speakers_m": 230,
+   "frontier_premium": 3.1484015785091053,
+   "o200k": 1.6526997357942916,
+   "nllb": 1.271575080361243,
+   "gpt2": 6.238574175417837
+  },
+  {
+   "code": "yor_Latn",
+   "name": "Yoruba",
+   "speakers_m": 45,
+   "frontier_premium": 2.6873031389160422,
+   "o200k": 2.1671566256093477,
+   "nllb": 1.4810653604775754,
+   "gpt2": 3.8860745451856236
+  },
+  {
+   "code": "ibo_Latn",
+   "name": "Igbo",
+   "speakers_m": 30,
+   "frontier_premium": 2.3839469968502227,
+   "o200k": 1.6655006884233245,
+   "nllb": 1.2985458441757232,
+   "gpt2": 3.483915101316373
+  },
+  {
+   "code": "zul_Latn",
+   "name": "Zulu",
+   "speakers_m": 27,
+   "frontier_premium": 2.187864306143876,
+   "o200k": 1.7206489785286347,
+   "nllb": 1.2187662635848768,
+   "gpt2": 2.4193906226889514
+  },
+  {
+   "code": "hau_Latn",
+   "name": "Hausa",
+   "speakers_m": 80,
+   "frontier_premium": 1.9441005032402883,
+   "o200k": 1.5502549026904329,
+   "nllb": 1.1655594673197611,
+   "gpt2": 2.138884780357935
+  },
+  {
+   "code": "swh_Latn",
+   "name": "Swahili",
+   "speakers_m": 80,
+   "frontier_premium": 1.9363165707251728,
+   "o200k": 1.485654746399732,
+   "nllb": 1.1208020817388642,
+   "gpt2": 2.1321919834344034
+  },
+  {
+   "code": "rus_Cyrl",
+   "name": "Russian",
+   "speakers_m": 250,
+   "frontier_premium": 1.7548604322797872,
+   "o200k": 1.4210545901090315,
+   "nllb": 1.3075769171896525,
+   "gpt2": 5.6752699304836565
+  },
+  {
+   "code": "jpn_Jpan",
+   "name": "Japanese",
+   "speakers_m": 125,
+   "frontier_premium": 1.6581326982473115,
+   "o200k": 1.6581326982473115,
+   "nllb": 1.0033981325577837,
+   "gpt2": 2.966018340482177
+  },
+  {
+   "code": "arb_Arab",
+   "name": "Arabic (MSA)",
+   "speakers_m": 270,
+   "frontier_premium": 1.6288693385467579,
+   "o200k": 1.3812004614296878,
+   "nllb": 1.3683453237410073,
+   "gpt2": 4.358637775477001
+  },
+  {
+   "code": "fra_Latn",
+   "name": "French",
+   "speakers_m": 300,
+   "frontier_premium": 1.5819123130951087,
+   "o200k": 1.3697019313065157,
+   "nllb": 1.33124138986683,
+   "gpt2": 2.0008504659074102
+  },
+  {
+   "code": "deu_Latn",
+   "name": "German",
+   "speakers_m": 130,
+   "frontier_premium": 1.5588863545852794,
+   "o200k": 1.310758009898411,
+   "nllb": 1.2752793509872953,
+   "gpt2": 2.141879899423162
+  },
+  {
+   "code": "ind_Latn",
+   "name": "Indonesian",
+   "speakers_m": 200,
+   "frontier_premium": 1.5424495854603382,
+   "o200k": 1.2492092434785844,
+   "nllb": 0.9379764273687433,
+   "gpt2": 1.9775550954000887
+  },
+  {
+   "code": "spa_Latn",
+   "name": "Spanish",
+   "speakers_m": 550,
+   "frontier_premium": 1.522428586944716,
+   "o200k": 1.317865515573252,
+   "nllb": 1.2245828868819837,
+   "gpt2": 1.9811418429226446
+  },
+  {
+   "code": "por_Latn",
+   "name": "Portuguese",
+   "speakers_m": 260,
+   "frontier_premium": 1.4524456029832373,
+   "o200k": 1.2250958210843597,
+   "nllb": 1.1594673197612122,
+   "gpt2": 1.934107380565005
+  },
+  {
+   "code": "zho_Hans",
+   "name": "Mandarin",
+   "speakers_m": 1100,
+   "frontier_premium": 1.248651062404644,
+   "o200k": 1.248651062404644,
+   "nllb": 1.0869432113883362,
+   "gpt2": 3.145947345067298
+  },
+  {
+   "code": "eng_Latn",
+   "name": "English",
+   "speakers_m": 1500,
+   "frontier_premium": 1.0,
+   "o200k": 1.0,
+   "nllb": 1.0,
+   "gpt2": 1.0
+  }
+ ],
+ "scripts_o200k": [
+  {
+   "script": "Tfng",
+   "name": "Tifinagh",
+   "n_languages": 2,
+   "median_premium": 10.179566851486623
+  },
+  {
+   "script": "Tibt",
+   "name": "Tibetan",
+   "n_languages": 2,
+   "median_premium": 8.547259330926952
+  },
+  {
+   "script": "Ethi",
+   "name": "Ge'ez (Ethiopic)",
+   "n_languages": 2,
+   "median_premium": 5.8724370185688235
+  },
+  {
+   "script": "Mymr",
+   "name": "Myanmar",
+   "n_languages": 2,
+   "median_premium": 5.54662672570982
+  },
+  {
+   "script": "Beng",
+   "name": "Bengali",
+   "n_languages": 3,
+   "median_premium": 1.9886131060916161
+  },
+  {
+   "script": "Hebr",
+   "name": "Hebrew",
+   "n_languages": 2,
+   "median_premium": 1.7536560860343098
+  },
+  {
+   "script": "Cyrl",
+   "name": "Cyrillic",
+   "n_languages": 12,
+   "median_premium": 1.74868827447624
+  },
+  {
+   "script": "Deva",
+   "name": "Devanagari",
+   "n_languages": 10,
+   "median_premium": 1.7439623413835448
+  },
+  {
+   "script": "Latn",
+   "name": "Latin",
+   "n_languages": 127,
+   "median_premium": 1.7206489785286347
+  },
+  {
+   "script": "Arab",
+   "name": "Arabic",
+   "n_languages": 22,
+   "median_premium": 1.5913556357682432
+  },
+  {
+   "script": "Hant",
+   "name": "Han (traditional)",
+   "n_languages": 2,
+   "median_premium": 1.398894801473598
+  }
+ ],
+ "diacritic_surcharge": {
+  "gpt2": {
+   "marked_tokens": 105095,
+   "stripped_tokens": 49133,
+   "surcharge": 2.138990088128142
+  },
+  "bloom": {
+   "marked_tokens": 44323,
+   "stripped_tokens": 39320,
+   "surcharge": 1.1272380467955239
+  },
+  "qwen2.5": {
+   "marked_tokens": 74226,
+   "stripped_tokens": 46496,
+   "surcharge": 1.596395388850654
+  },
+  "nllb": {
+   "marked_tokens": 48379,
+   "stripped_tokens": 38034,
+   "surcharge": 1.2719934795183256
+  },
+  "xlm-r": {
+   "marked_tokens": 71696,
+   "stripped_tokens": 45689,
+   "surcharge": 1.5692179736916982
+  },
+  "mbert": {
+   "marked_tokens": 62579,
+   "stripped_tokens": 45281,
+   "surcharge": 1.3820145314811951
+  },
+  "aya": {
+   "marked_tokens": 70450,
+   "stripped_tokens": 45473,
+   "surcharge": 1.549270995975634
+  },
+  "phi-3": {
+   "marked_tokens": 83936,
+   "stripped_tokens": 49531,
+   "surcharge": 1.6946154933274111
+  },
+  "mistral": {
+   "marked_tokens": 86481,
+   "stripped_tokens": 50895,
+   "surcharge": 1.6992042440318302
+  },
+  "falcon": {
+   "marked_tokens": 93189,
+   "stripped_tokens": 47563,
+   "surcharge": 1.959275066753569
+  },
+  "gpt-3.5/4 (cl100k)": {
+   "marked_tokens": 80247,
+   "stripped_tokens": 46391,
+   "surcharge": 1.7297967278135846
+  },
+  "gpt-4o (o200k)": {
+   "marked_tokens": 58238,
+   "stripped_tokens": 38196,
+   "surcharge": 1.524714629804168
+  }
+ },
+ "worst_10_frontier": [
+  {
+   "code": "sat_Olck",
+   "name": "Santali",
+   "speakers_m": null,
+   "frontier_premium": 12.73802516371128,
+   "o200k": 13.699921854649649,
+   "nllb": 2.3875401806214605,
+   "gpt2": 12.79703446235764
+  },
+  {
+   "code": "shn_Mymr",
+   "name": "Shan",
+   "speakers_m": null,
+   "frontier_premium": 10.431772926396583,
+   "o200k": 7.929148215681167,
+   "nllb": 1.889514771161794,
+   "gpt2": 18.68887738500222
+  },
+  {
+   "code": "taq_Tfng",
+   "name": "Tamasheq (Tifinagh)",
+   "speakers_m": null,
+   "frontier_premium": 10.098042822456037,
+   "o200k": 10.211625051166598,
+   "nllb": 2.325241083728762,
+   "gpt2": 10.393617808016566
+  },
+  {
+   "code": "tzm_Tfng",
+   "name": "Tamazight (Central Atlas)",
+   "speakers_m": null,
+   "frontier_premium": 10.032337576337282,
+   "o200k": 10.147508651806646,
+   "nllb": 1.9890402571559773,
+   "gpt2": 10.380306167726667
+  },
+  {
+   "code": "ory_Orya",
+   "name": "Odia",
+   "speakers_m": null,
+   "frontier_premium": 9.698888526845517,
+   "o200k": 4.984966323075206,
+   "nllb": 1.3482320526557476,
+   "gpt2": 13.263089779618399
+  },
+  {
+   "code": "dzo_Tibt",
+   "name": "Dzongkha",
+   "speakers_m": null,
+   "frontier_premium": 8.996241580768801,
+   "o200k": 8.996241580768801,
+   "nllb": 1.430062758303995,
+   "gpt2": 16.121431740866736
+  },
+  {
+   "code": "mya_Mymr",
+   "name": "Burmese",
+   "speakers_m": 40,
+   "frontier_premium": 8.928387820860939,
+   "o200k": 3.1641052357384734,
+   "nllb": 1.5459054033369048,
+   "gpt2": 16.81293447714835
+  },
+  {
+   "code": "lao_Laoo",
+   "name": "Lao",
+   "speakers_m": null,
+   "frontier_premium": 8.229970602463439,
+   "o200k": 8.229970602463439,
+   "nllb": 1.4431960814327263,
+   "gpt2": 13.093625203372282
+  },
+  {
+   "code": "bod_Tibt",
+   "name": "Tibetan",
+   "speakers_m": null,
+   "frontier_premium": 8.098277081085104,
+   "o200k": 8.098277081085104,
+   "nllb": 1.404561457217205,
+   "gpt2": 14.815855642656413
+  },
+  {
+   "code": "pan_Guru",
+   "name": "Panjabi",
+   "speakers_m": null,
+   "frontier_premium": 7.276601136816191,
+   "o200k": 2.6176831764224313,
+   "nllb": 1.46777896831471,
+   "gpt2": 7.886333382635705
+  }
+ ],
+ "yoruba": {
+  "code": "yor_Latn",
+  "name": "Yoruba",
+  "speakers_m": 45,
+  "frontier_premium": 2.6873031389160422,
+  "o200k": 2.1671566256093477,
+  "nllb": 1.4810653604775754,
+  "gpt2": 3.8860745451856236
+ },
+ "amharic": {
+  "code": "amh_Ethi",
+  "name": "Amharic",
+  "speakers_m": 60,
+  "frontier_premium": 5.7786625981468385,
+  "o200k": 5.7786625981468385,
+  "nllb": 1.2901576611051584,
+  "gpt2": 7.7021520485135335
+ }
+}

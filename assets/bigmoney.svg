@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="1004" viewBox="0 0 1320 1004" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace">
+<rect x="0.0" y="0.0" width="1320.0" height="1004.0" fill="#141019" opacity="1.0" rx="0"/>
+<text x="40.0" y="42.0" font-size="11" fill="#9A8FA6" text-anchor="start" letter-spacing="2.2">OWOORI  /  BILLIONS OF SPEAKERS, ONE METER</text>
+<text x="40.0" y="80.0" font-size="29" fill="#F0EBE3" text-anchor="start" font-family="'Iowan Old Style', Palatino, Georgia, serif">What the world&#x27;s big languages pay</text>
+<text x="40.0" y="106.0" font-size="13" fill="#9A8FA6" text-anchor="start">Premium under the GPT-4o tokenizer for identical content, for two dozen of the most spoken languages.</text>
+<line x1="401.9" y1="198.0" x2="401.9" y2="838.0" stroke="#2B2336" stroke-width="1" opacity="0.5" stroke-dasharray="2 6"/>
+<text x="401.9" y="190.0" font-size="10.5" fill="#9A8FA6" text-anchor="middle">1x</text>
+<line x1="543.9" y1="198.0" x2="543.9" y2="838.0" stroke="#2B2336" stroke-width="1" opacity="0.5" stroke-dasharray="2 6"/>
+<text x="543.9" y="190.0" font-size="10.5" fill="#9A8FA6" text-anchor="middle">2x</text>
+<line x1="685.8" y1="198.0" x2="685.8" y2="838.0" stroke="#2B2336" stroke-width="1" opacity="0.5" stroke-dasharray="2 6"/>
+<text x="685.8" y="190.0" font-size="10.5" fill="#9A8FA6" text-anchor="middle">3x</text>
+<line x1="827.7" y1="198.0" x2="827.7" y2="838.0" stroke="#2B2336" stroke-width="1" opacity="0.5" stroke-dasharray="2 6"/>
+<text x="827.7" y="190.0" font-size="10.5" fill="#9A8FA6" text-anchor="middle">4x</text>
+<line x1="969.7" y1="198.0" x2="969.7" y2="838.0" stroke="#2B2336" stroke-width="1" opacity="0.5" stroke-dasharray="2 6"/>
+<text x="969.7" y="190.0" font-size="10.5" fill="#9A8FA6" text-anchor="middle">5x</text>
+<line x1="1111.6" y1="198.0" x2="1111.6" y2="838.0" stroke="#2B2336" stroke-width="1" opacity="0.5" stroke-dasharray="2 6"/>
+<text x="1111.6" y="190.0" font-size="10.5" fill="#9A8FA6" text-anchor="middle">6x</text>
+<line x1="401.9" y1="198.0" x2="401.9" y2="838.0" stroke="#4FBFA8" stroke-width="1.4" opacity="0.8"/>
+<text x="246.0" y="227.0" font-size="12" fill="#F0EBE3" text-anchor="end">Amharic</text>
+<text x="140.0" y="227.0" font-size="9.5" fill="#9A8FA6" text-anchor="end">60M</text>
+<rect x="401.9" y="216.0" width="678.3" height="14.0" fill="#E8654F" opacity="0.9" rx="2"/>
+<text x="1088.2" y="227.0" font-size="10.5" fill="#E8654F" text-anchor="start">5.78x</text>
+<text x="246.0" y="253.0" font-size="12" fill="#F0EBE3" text-anchor="end">Khmer</text>
+<text x="140.0" y="253.0" font-size="9.5" fill="#9A8FA6" text-anchor="end">18M</text>
+<rect x="401.9" y="242.0" width="331.5" height="14.0" fill="#E8654F" opacity="0.9" rx="2"/>
+<text x="741.5" y="253.0" font-size="10.5" fill="#E8654F" text-anchor="start">3.34x</text>
+<text x="246.0" y="279.0" font-size="12" fill="#F0EBE3" text-anchor="end">Burmese</text>
+<text x="140.0" y="279.0" font-size="9.5" fill="#9A8FA6" text-anchor="end">40M</text>
+<rect x="401.9" y="268.0" width="307.2" height="14.0" fill="#E8654F" opacity="0.9" rx="2"/>
+<text x="717.1" y="279.0" font-size="10.5" fill="#E8654F" text-anchor="start">3.16x</text>
+<text x="246.0" y="305.0" font-size="12" fill="#F0EBE3" text-anchor="end">Sinhala</text>
+<text x="140.0" y="305.0" font-size="9.5" fill="#9A8FA6" text-anchor="end">17M</text>
+<rect x="401.9" y="294.0" width="240.6" height="14.0" fill="#E8654F" opacity="0.9" rx="2"/>
+<text x="650.6" y="305.0" font-size="10.5" fill="#E8654F" text-anchor="start">2.70x</text>
+<text x="246.0" y="331.0" font-size="12" fill="#F0EBE3" text-anchor="end">Yoruba</text>
+<text x="140.0" y="331.0" font-size="9.5" fill="#9A8FA6" text-anchor="end">45M</text>
+<rect x="401.9" y="320.0" width="165.7" height="14.0" fill="#E8B04B" opacity="0.9" rx="2"/>
+<text x="575.6" y="331.0" font-size="10.5" fill="#E8B04B" text-anchor="start">2.17x</text>
+<text x="246.0" y="357.0" font-size="12" fill="#F0EBE3" text-anchor="end">Tamil</text>
+<text x="140.0" y="357.0" font-size="9.5" fill="#9A8FA6" text-anchor="end">85M</text>
+<rect x="401.9" y="346.0" width="139.0" height="14.0" fill="#E8B04B" opacity="0.9" rx="2"/>
+<text x="549.0" y="357.0" font-size="10.5" fill="#E8B04B" text-anchor="start">1.98x</text>
+<text x="246.0" y="383.0" font-size="12" fill="#F0EBE3" text-anchor="end">Telugu</text>
+<text x="140.0" y="383.0" font-size="9.5" fill="#9A8FA6" text-anchor="end">95M</text>
+<rect x="401.9" y="372.0" width="132.0" height="14.0" fill="#E8B04B" opacity="0.9" rx="2"/>
+<text x="541.9" y="383.0" font-size="10.5" fill="#E8B04B" text-anchor="start">1.93x</text>
+<text x="246.0" y="409.0" font-size="12" fill="#F0EBE3" text-anchor="end">Zulu</text>
+<text x="140.0" y="409.0" font-size="9.5" fill="#9A8FA6" text-anchor="end">27M</text>
+<rect x="401.9" y="398.0" width="102.3" height="14.0" fill="#E8B04B" opacity="0.9" rx="2"/>
+<text x="512.2" y="409.0" font-size="10.5" fill="#E8B04B" text-anchor="start">1.72x</text>
+<text x="246.0" y="435.0" font-size="12" fill="#F0EBE3" text-anchor="end">Bengali</text>
+<text x="140.0" y="435.0" font-size="9.5" fill="#9A8FA6" text-anchor="end">270M</text>
+<rect x="401.9" y="424.0" width="98.9" height="14.0" fill="#E8B04B" opacity="0.9" rx="2"/>
+<text x="508.8" y="435.0" font-size="10.5" fill="#E8B04B" text-anchor="start">1.70x</text>
+<text x="246.0" y="461.0" font-size="12" fill="#F0EBE3" text-anchor="end">Igbo</text>
+<text x="140.0" y="461.0" font-size="9.5" fill="#9A8FA6" text-anchor="end">30M</text>
+<rect x="401.9" y="450.0" width="94.5" height="14.0" fill="#E8B04B" opacity="0.9" rx="2"/>
+<text x="504.4" y="461.0" font-size="10.5" fill="#E8B04B" text-anchor="start">1.67x</text>
+<text x="246.0" y="487.0" font-size="12" fill="#F0EBE3" text-anchor="end">Japanese</text>
+<text x="140.0" y="487.0" font-size="9.5" fill="#9A8FA6" text-anchor="end">125M</text>
+<rect x="401.9" y="476.0" width="93.4" height="14.0" fill="#E8B04B" opacity="0.9" rx="2"/>
+<text x="503.3" y="487.0" font-size="10.5" fill="#E8B04B" text-anchor="start">1.66x</text>
+<text x="246.0" y="513.0" font-size="12" fill="#F0EBE3" text-anchor="end">Urdu</text>
+<text x="140.0" y="513.0" font-size="9.5" fill="#9A8FA6" text-anchor="end">230M</text>
+<rect x="401.9" y="502.0" width="92.6" height="14.0" fill="#E8B04B" opacity="0.9" rx="2"/>
+<text x="502.6" y="513.0" font-size="10.5" fill="#E8B04B" text-anchor="start">1.65x</text>
+<text x="246.0" y="539.0" font-size="12" fill="#F0EBE3" text-anchor="end">Hindi</text>
+<text x="140.0" y="539.0" font-size="9.5" fill="#9A8FA6" text-anchor="end">600M</text>
+<rect x="401.9" y="528.0" width="81.4" height="14.0" fill="#E8B04B" opacity="0.9" rx="2"/>
+<text x="491.4" y="539.0" font-size="10.5" fill="#E8B04B" text-anchor="start">1.57x</text>
+<text x="246.0" y="565.0" font-size="12" fill="#F0EBE3" text-anchor="end">Hausa</text>
+<text x="140.0" y="565.0" font-size="9.5" fill="#9A8FA6" text-anchor="end">80M</text>
+<rect x="401.9" y="554.0" width="78.1" height="14.0" fill="#E8B04B" opacity="0.9" rx="2"/>
+<text x="488.0" y="565.0" font-size="10.5" fill="#E8B04B" text-anchor="start">1.55x</text>
+<text x="246.0" y="591.0" font-size="12" fill="#F0EBE3" text-anchor="end">Swahili</text>
+<text x="140.0" y="591.0" font-size="9.5" fill="#9A8FA6" text-anchor="end">80M</text>
+<rect x="401.9" y="580.0" width="68.9" height="14.0" fill="#4FBFA8" opacity="0.9" rx="2"/>
+<text x="478.9" y="591.0" font-size="10.5" fill="#4FBFA8" text-anchor="start">1.49x</text>
+<text x="246.0" y="617.0" font-size="12" fill="#F0EBE3" text-anchor="end">Russian</text>
+<text x="140.0" y="617.0" font-size="9.5" fill="#9A8FA6" text-anchor="end">250M</text>
+<rect x="401.9" y="606.0" width="59.8" height="14.0" fill="#4FBFA8" opacity="0.9" rx="2"/>
+<text x="469.7" y="617.0" font-size="10.5" fill="#4FBFA8" text-anchor="start">1.42x</text>
+<text x="246.0" y="643.0" font-size="12" fill="#F0EBE3" text-anchor="end">Arabic (MSA)</text>
+<text x="140.0" y="643.0" font-size="9.5" fill="#9A8FA6" text-anchor="end">270M</text>
+<rect x="401.9" y="632.0" width="54.1" height="14.0" fill="#4FBFA8" opacity="0.9" rx="2"/>
+<text x="464.0" y="643.0" font-size="10.5" fill="#4FBFA8" text-anchor="start">1.38x</text>
+<text x="246.0" y="669.0" font-size="12" fill="#F0EBE3" text-anchor="end">French</text>
+<text x="140.0" y="669.0" font-size="9.5" fill="#9A8FA6" text-anchor="end">300M</text>
+<rect x="401.9" y="658.0" width="52.5" height="14.0" fill="#4FBFA8" opacity="0.9" rx="2"/>
+<text x="462.4" y="669.0" font-size="10.5" fill="#4FBFA8" text-anchor="start">1.37x</text>
+<text x="246.0" y="695.0" font-size="12" fill="#F0EBE3" text-anchor="end">Spanish</text>
+<text x="140.0" y="695.0" font-size="9.5" fill="#9A8FA6" text-anchor="end">550M</text>
+<rect x="401.9" y="684.0" width="45.1" height="14.0" fill="#4FBFA8" opacity="0.9" rx="2"/>
+<text x="455.1" y="695.0" font-size="10.5" fill="#4FBFA8" text-anchor="start">1.32x</text>
+<text x="246.0" y="721.0" font-size="12" fill="#F0EBE3" text-anchor="end">German</text>
+<text x="140.0" y="721.0" font-size="9.5" fill="#9A8FA6" text-anchor="end">130M</text>
+<rect x="401.9" y="710.0" width="44.1" height="14.0" fill="#4FBFA8" opacity="0.9" rx="2"/>
+<text x="454.0" y="721.0" font-size="10.5" fill="#4FBFA8" text-anchor="start">1.31x</text>
+<text x="246.0" y="747.0" font-size="12" fill="#F0EBE3" text-anchor="end">Indonesian</text>
+<text x="140.0" y="747.0" font-size="9.5" fill="#9A8FA6" text-anchor="end">200M</text>
+<rect x="401.9" y="736.0" width="35.4" height="14.0" fill="#4FBFA8" opacity="0.9" rx="2"/>
+<text x="445.3" y="747.0" font-size="10.5" fill="#4FBFA8" text-anchor="start">1.25x</text>
+<text x="246.0" y="773.0" font-size="12" fill="#F0EBE3" text-anchor="end">Mandarin</text>
+<text x="140.0" y="773.0" font-size="9.5" fill="#9A8FA6" text-anchor="end">1,100M</text>
+<rect x="401.9" y="762.0" width="35.3" height="14.0" fill="#4FBFA8" opacity="0.9" rx="2"/>
+<text x="445.2" y="773.0" font-size="10.5" fill="#4FBFA8" text-anchor="start">1.25x</text>
+<text x="246.0" y="799.0" font-size="12" fill="#F0EBE3" text-anchor="end">Portuguese</text>
+<text x="140.0" y="799.0" font-size="9.5" fill="#9A8FA6" text-anchor="end">260M</text>
+<rect x="401.9" y="788.0" width="31.9" height="14.0" fill="#4FBFA8" opacity="0.9" rx="2"/>
+<text x="441.9" y="799.0" font-size="10.5" fill="#4FBFA8" text-anchor="start">1.23x</text>
+<text x="246.0" y="825.0" font-size="12" fill="#F0EBE3" text-anchor="end">English</text>
+<text x="140.0" y="825.0" font-size="9.5" fill="#9A8FA6" text-anchor="end">1,500M</text>
+<rect x="401.9" y="814.0" width="0.0" height="14.0" fill="#4FBFA8" opacity="0.9" rx="2"/>
+<text x="409.9" y="825.0" font-size="10.5" fill="#4FBFA8" text-anchor="start">1.00x</text>
+<text x="260.0" y="870.0" font-size="11.5" fill="#9A8FA6" text-anchor="start">speaker counts at the far left (first plus second language, rough public figures). The premium multiplies API price,</text>
+<text x="260.0" y="890.0" font-size="11.5" fill="#9A8FA6" text-anchor="start">latency and context shrinkage at once, so a Yoruba or Amharic product pays it three ways simultaneously.</text>
+</svg>

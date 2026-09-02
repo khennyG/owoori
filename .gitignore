@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+.pytest_cache/
+media/
+data/flores200_dataset/
+data/*.tar.gz
