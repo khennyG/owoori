@@ -9,4 +9,5 @@ jobs:
         with:
           python-version: "3.11"
       - run: pip install numpy pytest
+      - run: bash data/get_data.sh
       - run: python -m pytest tests/ -q
